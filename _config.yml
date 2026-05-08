@@ -1,0 +1,21 @@
+# GitHub Pages Configuration
+title: Hyperautomation
+description: Intelligent Process Automation Platform
+theme: jekyll-theme-slate
+
+# GitHub specific
+show_downloads: false
+
+# Site Settings
+url: "https://chillypriya-creator.github.io"
+baseurl: "/hyperautomation"
+lang: en_US
+
+# Social
+github:
+  username: chillypriya-creator
+
+# Exclude
+exclude:
+  - .gitignore
+  - LICENSE
