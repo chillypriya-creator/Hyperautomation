@@ -15,6 +15,7 @@
                 <li><a href="#home">Home</a></li>
                 <li><a href="#features">Features</a></li>
                 <li><a href="#about">About</a></li>
+                <li><a href="#expert-advice">Expert Advice</a></li>
                 <li><a href="#contact">Contact</a></li>
             </ul>
         </div>
@@ -26,7 +27,7 @@
             <div class="hero-content">
                 <h1>Intelligent Process Automation</h1>
                 <p>Transform your business with AI-powered hyperautomation. Streamline workflows, reduce costs, and accelerate growth.</p>
-                <button class="cta-button" onclick="document.getElementById('contact').scrollIntoView({behavior: 'smooth'})">Get Started</button>
+                <button class="cta-button" onclick="document.getElementById('expert-advice').scrollIntoView({behavior: 'smooth'})">Get Started</button>
             </div>
         </div>
     </section>
@@ -85,6 +86,69 @@
                     <li>✓ Accelerate digital transformation</li>
                     <li>✓ Ensure compliance and governance</li>
                 </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- Expert Advice Section -->
+    <section id="expert-advice" class="expert-advice">
+        <div class="container">
+            <h2>Expert Advice</h2>
+            <p class="section-subtitle">Get personalized guidance from our hyperautomation specialists</p>
+            
+            <div class="expert-grid">
+                <div class="advice-card">
+                    <div class="advice-icon">💡</div>
+                    <h3>Assessment & Strategy</h3>
+                    <p>Our experts analyze your current processes and design a customized hyperautomation roadmap tailored to your business goals and budget.</p>
+                    <button class="advice-button">Schedule Consultation</button>
+                </div>
+                <div class="advice-card">
+                    <div class="advice-icon">🚀</div>
+                    <h3>Implementation Support</h3>
+                    <p>Get hands-on support during deployment. Our team ensures smooth integration with your existing systems and quick time-to-value.</p>
+                    <button class="advice-button">Learn More</button>
+                </div>
+                <div class="advice-card">
+                    <div class="advice-icon">📈</div>
+                    <h3>Optimization & Training</h3>
+                    <p>We provide continuous optimization recommendations and comprehensive training for your team to maximize ROI and adoption.</p>
+                    <button class="advice-button">Explore</button>
+                </div>
+            </div>
+
+            <div class="expert-form-section">
+                <h3>Request Expert Consultation</h3>
+                <form class="expert-form" onsubmit="handleExpertFormSubmit(event)">
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Your Name" required>
+                        </div>
+                        <div class="form-group">
+                            <input type="email" placeholder="Your Email" required>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <input type="text" placeholder="Company Name" required>
+                        </div>
+                        <div class="form-group">
+                            <select required>
+                                <option value="">Select Industry</option>
+                                <option value="finance">Finance</option>
+                                <option value="healthcare">Healthcare</option>
+                                <option value="manufacturing">Manufacturing</option>
+                                <option value="retail">Retail</option>
+                                <option value="logistics">Logistics</option>
+                                <option value="other">Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <textarea placeholder="Tell us about your automation needs..." rows="5" required></textarea>
+                    </div>
+                    <button type="submit" class="submit-button">Request Consultation</button>
+                </form>
             </div>
         </div>
     </section>
